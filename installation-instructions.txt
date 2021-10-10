@@ -1,0 +1,45 @@
+# MSc-research-project
+Joel M. Pearson
+
+A Comparison of Black-Box Interpretability Methods for Customer Churn Prediction using Quantitative Measures.
+
+
+## Installation instructions
+Please follow the instructions provided below to create a virtual environment containing all the dependencies needed to run the source code for this research project. 
+
+
+- Download the folder 'MSc-research-project'.
+- Install Anaconda (https://www.anaconda.com/products/individual).
+- Open 'Anaconda prompt'.
+- Change the working directory to 'MSc-research-project' by running the following command:
+   - cd ../MSc-research-project
+- Create a new virtual environment and install all dependencies for the project by running the following command:
+   - conda env create -f venv/environment.yml
+- Ensure the virtual environment is active by running:
+   - conda activate virtual-environment
+- The 'alibi' package must be installed using pip, so run the following command:
+   - pip install alibi==0.6.0
+ - Then open the folder with jupyter notebook by running:
+    - jupyter notebook
+ - Start running the code :)
+
+
+alternatively, one can use the anaconda navigator to install the virtual environment...
+
+
+- Download the folder 'MSc-research-project'.
+- Install Anaconda (https://www.anaconda.com/products/individual).
+- Open the Anaconda Navigator.
+- Select the 'environments' tab on the left of the window.
+- A tab containg a list of environments should be displayed. (If this is the first time using Anaconda Navigator, 'base (root)' will be the only environment present).
+- Select 'import' at the bottom of the list of environments.
+- Browse to '../MSc-research-project/venv/environment.yml
+- Name your environment and press 'import'.
+- In the list of environments, select your newly named environment that has just been created.
+- Press the 'play/pause' key and select 'open terminal'.
+- Then run the following command:
+   - pip install alibi==0.6.0
+- Once installed, close the terminal.
+- Open jupyter notebook and navigate to '../MSc-research-project'.
+- Start running the code :)
+
